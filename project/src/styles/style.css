@@ -1,0 +1,44 @@
+.body{
+    width:1400px;
+    height:440px;
+    margin: 0;
+}
+.image-box{
+    width:428px;
+    height:350px;
+    margin-right:803px;
+    margin-top:1px;
+}
+.text-box{
+    width:744px;
+    height:163px;
+    margin-left:487px;
+    position :absolute
+}
+.title{
+    width:706px;
+    height:46px;
+    background-color:#e7c734;
+    font-family: "Arial",serif;
+    font-size: 22.3px;
+    line-height: 46px;
+    letter-spacing: 1px;
+    padding: 0 0 0 38px;
+}
+.main-box{
+    width:1231px;
+    height:351px;
+    margin:44px 90px 45px 79px;
+}
+.main-text{
+    width:743px;
+    height: 79px;
+    margin-top: 31px;
+    color: #424243;
+    font-size: 19.15px;
+    font-family: Arial, serif;
+    line-height: 1.6;
+    text-align: justify;
+
+}
+
