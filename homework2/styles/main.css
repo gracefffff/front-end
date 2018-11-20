@@ -446,7 +446,9 @@ body {
 .hashtag_name:hover {
     color: #5c6bc0;
 }
-
+.post_image :hover{
+    filter: grayscale(40%) contrast(110%);
+}
 .title_name:after {
     content: '';
     position: absolute;
