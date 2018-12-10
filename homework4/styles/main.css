@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400i,700i');
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    body {
+        max-width: 470px;
+        background-color: #f7f9fc;
+        margin: 0;
+        font-family: Lato, sans-serif;
+    }
+
+
+
+
+}
+

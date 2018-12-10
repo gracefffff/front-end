@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400i,700i');
+
+.main-content {
+    margin-top: 0;
+    height: 816px;
+}
+
+.main-content__header_title {
+    padding-top: 70px;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.main-content__text {
+    margin-top: 34px;
+
+}
+
+.main-content__header {
+    height: 280px;
+    border-bottom: 2px #eeeeee solid;
+
+}
+
+
+.form__input-block {
+    display: block;
+}
+
+.main-content__main {
+    margin-top: 18px;
+
+}
+
+.form__box-input {
+    height: 50px;
+    width: 332px;
+    margin-top: 34px;
+    font-size: 20px;
+    line-height: 30px;
+
+    background-color: #f7f9fc;
+    border: none;
+
+}
+
+
+input {
+
+    padding-left: 29px;
+}
+
+input::-webkit-input-placeholder {
+    color: #bcbdbf;
+}
+
+.form__box-input-email {
+    margin-left: 24px;
+}
+
+.form__box-input-subject {
+    max-width: 720px;
+    width: 100%;
+}
+
+.form__box-input-message {
+    max-height: 140px;
+    width: 100%;
+}
+
+.main-content__button {
+    margin-top: 24px;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+textarea::-webkit-input-placeholder {
+    color: #bcbdbf;
+    padding-left: 29px;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    padding-top: 7px;
+
+}
+
+.form__box-input-message {
+    max-width: 745px;
+    width: 100%;
+}
+
+input::-ms-input-placeholder {
+    color: #bcbdbf;
+}
+
+input::-ms-input-placeholder {
+    color: #bcbdbf;
+}
+
+input::placeholder {
+    color: #bcbdbf;
+}
+
+@media screen and (max-width: 480px) {
+
+    .main-content {
+        margin-top: 0;
+        height: 1076px;
+    }
+
+
+    .main-content__header {
+        height: 460px;
+    }
+
+
+
+    .form__box-input-email {
+        margin-left: 0;
+    }
+
+
+
+    .form__box-input-message {
+        height: 140px;
+
+    }
+
+
+    .form__box-input-message {
+        max-width: 348px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 320px) {
+    
+    .main-content__header {
+        height: 490px;
+    }
+
+    .form__box-input {
+
+        max-width: 200px;
+        width: 100%;
+
+    }
+
+    .form__box-input-message {
+        max-width: 225px;
+        width: 100%;
+    }
+
+}
