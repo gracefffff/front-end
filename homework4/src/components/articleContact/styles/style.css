@@ -137,7 +137,7 @@ input::placeholder {
     }
 }
 @media screen and (max-width: 320px) {
-    
+
     .main-content__header {
         height: 490px;
     }

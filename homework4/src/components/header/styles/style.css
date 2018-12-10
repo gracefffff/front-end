@@ -47,7 +47,7 @@
 }
 
 .header__search-logo:hover {
-    background: url("./images/search_logo_hover.svg") no-repeat;
+    background: url("../images/search_logo_hover.svg") no-repeat;
 }
 
 .header_main_logo {
@@ -66,10 +66,7 @@
     margin: 80px 0 80px 0;
 }
 
-.header, .main, .footer__content, .main-content {
-    margin: 0 auto;
-    max-width: 953px;
-}
+
 
 
 .header__search-logo {
@@ -81,10 +78,7 @@
 @media screen and (max-width: 480px) {
 
 
-    .header, .main, .footer__content, .main-content {
-        height: 100%;
-        margin: 0 15px;
-    }
+
     .header {
 
         height: 159px;
@@ -115,10 +109,7 @@
 }
 @media screen and (max-width: 320px) {
 
-    .header, .main, .footer__content, .main-content {
-        height: 100%;
-        margin: 0 15px;
-    }
+
     .header {
 
         height: 159px;

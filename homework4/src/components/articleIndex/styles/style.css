@@ -1,16 +1,8 @@
-.header, .main, .footer__content, .main-content {
-    margin: 0 auto;
-    max-width: 953px;
-}
 
 .main {
     position: relative;
 }
 
-.post, .main-content {
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff;
-}
 
 .date {
     font-size: 14px;
@@ -32,9 +24,7 @@
 }
 
 
-.post__header, .first-post__main, .post__footer, .main-content__header, .main-content__main {
-    margin: 0 96px 0 97px;
-}
+
 
 .post_title {
     margin-left: -2px;
@@ -230,21 +220,13 @@
 
 }
 
-.footer__link:hover:after, .footer_title_name:hover:after, .title__name:hover:after {
-    width: 100%;
-}
+
 
 .hashtag__name:hover:after {
     width: 87%;
 }
 
-.footer_title_name:active:after, .hashtag__name:active:after {
-    opacity: 0;
-}
 
-.hashtag__name, .title__name-inactive {
-    text-decoration: none;
-}
 
 .hashtag__name:hover {
     color: #5c6bc0;
@@ -289,10 +271,7 @@
 
 
 
-    .header, .main, .footer__content, .main-content {
-        height: 100%;
-        margin: 0 15px;
-    }
+
 
     .date {
         color: #bdbdbd;
@@ -307,9 +286,7 @@
         padding-top: 32px;
     }
 
-    .post__header, .first-post__main, .post__footer, .main-content__header, .main-content__main {
-        margin: 0 48px 0 50px;
-    }
+
 
     .post_title {
         margin-left: -2px;
@@ -484,17 +461,12 @@
 
     }
 
-    .footer__link:hover:after, .footer_title_name:hover:after, .title__name:hover:after {
-        width: 100%;
-    }
+
 
     .hashtag__name:hover:after {
         width: 87%;
     }
 
-    .footer_title_name:active:after, .hashtag__name:active:after {
-        opacity: 0;
-    }
 
     .hashtag__name, .title__name-inactive {
         text-decoration: none;
@@ -516,10 +488,7 @@
 
 @media screen and (max-width: 320px) {
 
-    .header, .main, .footer__content, .main-content {
-        height: 100%;
-        margin: 0 15px;
-    }
+
 
     .date {
         color: #bdbdbd;
@@ -538,9 +507,7 @@
         margin-left: 15px;
     }
 
-    .post__header, .first-post__main, .post__footer, .main-content__header, .main-content__main {
-        margin: 0 24px 0 26px;
-    }
+
 
     .post_title {
         margin-left: -2px;
@@ -755,17 +722,12 @@
 
     }
 
-    .footer__link:hover:after, .footer_title_name:hover:after, .title__name:hover:after {
-        width: 100%;
-    }
 
     .hashtag__name:hover:after {
         width: 87%;
     }
 
-    .footer_title_name:active:after, .hashtag__name:active:after {
-        opacity: 0;
-    }
+
 
     .title__name:after {
         content: '';
